@@ -1,1 +1,1 @@
-web: gunicorn puppetboard.app:app --log-file /var/log/puppetboard/puppetboard.log --bind :9090
+web: gunicorn puppetboard.app:app --log-file ${LOGFILE:"/var/log/puppetboard/puppetboard.log"} --bind ${BIND:="127.0.0.1:9090"}
