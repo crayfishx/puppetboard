@@ -9,4 +9,4 @@ targets:
 user: puppetboard
 group: puppetboard
 
-cli: false
+#cli: false
